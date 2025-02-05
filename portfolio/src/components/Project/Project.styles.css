@@ -36,7 +36,7 @@
 [data-aos="zoom-in"] {
   opacity: 0;
   transform: scale(0.8); 
-  transition: opacity 1s, transform 1s;
+  transition: opacity 2s, transform 2s;
 }
 
 [data-aos].aos-animate {

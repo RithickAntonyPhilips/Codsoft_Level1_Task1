@@ -36,6 +36,7 @@ const Header = () => {
         <ul>
           {[
             { name: "Home", id: "home" },
+            { name: "Education", id: "education"},
             { name: "Skills", id: "skills" },
             { name: "Projects", id: "projects" },
             { name: "Certifications", id: "certifications" },

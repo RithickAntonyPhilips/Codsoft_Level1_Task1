@@ -7,12 +7,14 @@ import Resume from './components/Resume/Resume.js';
 import Contact from './components/Contact/Contact.js';
 import Certifications from './components/Certifications/Certifications.js';
 import Internships from './components/Internships/Internships.js';
+import Education from './components/Education/Education.js';
 
 function App() {
   return (
     <div>
       <Header />
       <About />
+      <Education />
       <Skills />
       <Projects />
       <Certifications />

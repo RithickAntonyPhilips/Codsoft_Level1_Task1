@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos'; // Import AOS
-import 'aos/dist/aos.css'; // Import AOS CSS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import C1 from './UJC.jpg';
 import C2 from './UMI.jpg';
 import C3 from './PBM.jpg';

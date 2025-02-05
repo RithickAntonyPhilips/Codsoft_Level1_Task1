@@ -1,7 +1,9 @@
 #certifications {
   padding: 20px;
   text-align: center;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
+  max-width: 1200px;
+  margin: auto;
 }
 
 #certifications h2 {
@@ -10,17 +12,22 @@
 
 .certifications-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; 
   flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .cert-card {
   width: 300px;
-  margin: 10px;
+  margin: 15px;
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
@@ -31,7 +38,8 @@
 }
 
 .cert-card img {
-  width: 290px;
+  width: 100%;
+  max-width: 290px;
   height: 200px;
   border: 1px #cccccc solid;
   border-radius: 8px;
@@ -57,12 +65,15 @@
   background-color: #0056b3;
 }
 
-[data-aos="fade-up"], [data-aos="fade-up-left"], [data-aos="fade-up-right"] {
+[data-aos="fade-up"], 
+[data-aos="fade-up-left"], 
+[data-aos="fade-up-right"] {
   opacity: 0;
   transition: opacity 1.5s ease-out;
 }
 
-[data-aos="fade-up"].aos-animate, [data-aos="fade-up-left"].aos-animate, [data-aos="fade-up-right"].aos-animate {
+[data-aos="fade-up"].aos-animate, 
+[data-aos="fade-up-left"].aos-animate, 
+[data-aos="fade-up-right"].aos-animate {
   opacity: 1;
 }
-
