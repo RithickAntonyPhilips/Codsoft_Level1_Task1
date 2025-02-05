@@ -20,8 +20,6 @@ Thumbs.db
 # Environment files
 .env
 
-# Vercel-specific files
-.vercel/
 
 # IDE/editor settings
 .idea/
